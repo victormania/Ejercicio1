@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.victor.ejercicio1.FrameLayout">
+
+    <Button
+        android:id="@+id/button_siguiente1"
+        android:text="@string/button_siguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:onClick="cambiarLinearLayout"/>
+
+    <ImageView
+        android:id="@+id/mario"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/mario"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android:onClick="cambiarImage"/>
+
+    <ImageView
+        android:id="@+id/yoshi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/yoshi"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:onClick="cambiarImage"/>
+</FrameLayout>

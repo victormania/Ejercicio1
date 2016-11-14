@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Ejercicio1</string>
+    <string name="button_siguiente">Siguiente</string>
+    <string name="opcion1">Opcion 1</string>
+    <string name="opcion2">Opcion 2</string>
+    <string name="opcion3">Opcion 3</string>
+    <string name="button_centro">C</string>
+    <string name="button_norte">N</string>
+    <string name="button_sur">S</string>
+    <string name="button_noreste">NE</string>
+    <string name="button_noroeste">NO</string>
+    <string name="button_sureste">SE</string>
+    <string name="button_suroeste">SO</string>
+    <string name="button_este">E</string>
+    <string name="button_oeste">O</string>
+    <string name="button_n1">1</string>
+    <string name="button_n2">2</string>
+    <string name="button_n3">3</string>
+    <string name="button_n4">4</string>
+    <string name="button_n5">5</string>
+    <string name="button_n6">6</string>
+    <string name="button_n7">7</string>
+    <string name="button_n8">8</string>
+    <string name="button_n9">9</string>
+    <string name="button_n0">0</string>
+</resources>

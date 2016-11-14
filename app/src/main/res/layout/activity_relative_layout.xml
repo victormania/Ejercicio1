@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.victor.ejercicio1.RelativeLayout">
+
+    <Button
+        android:text="@string/button_siguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button_siguiente3"
+        android:onClick="cambiarTableLayout"/>
+
+    <Button
+        android:text="@string/button_centro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button_centro"
+        android:onClick="mostrar"/>
+
+    <Button
+        android:text="@string/button_noroeste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_noroeste"
+        android:layout_above="@+id/button_centro"
+        android:layout_toStartOf="@+id/button_centro"
+        android:onClick="mostrar"/>
+
+    <Button
+        android:text="@string/button_norte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_norte"
+        android:layout_above="@+id/button_noroeste"
+        android:layout_toEndOf="@+id/button_noroeste"
+        android:onClick="mostrar"/>
+
+    <Button
+        android:text="@string/button_suroeste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_suroeste"
+        android:layout_below="@+id/button_oeste"
+        android:layout_toStartOf="@+id/button_sur"
+        android:onClick="mostrar"/>
+
+    <Button
+        android:text="@string/button_oeste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_oeste"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/button_noroeste"
+        android:onClick="mostrar"/>
+
+    <Button
+        android:text="@string/button_sur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_sur"
+        android:layout_below="@+id/button_suroeste"
+        android:layout_alignStart="@+id/button_centro"
+        android:onClick="mostrar"/>
+
+    <Button
+        android:text="@string/button_suroeste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_suroeste"
+        android:layout_toEndOf="@+id/button_sur"
+        android:id="@+id/button_suereste"
+        android:onClick="mostrar"/>
+
+    <Button
+        android:text="@string/button_noreste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_noroeste"
+        android:layout_toEndOf="@+id/button_norte"
+        android:id="@+id/button_noreste"
+        android:onClick="mostrar"/>
+
+    <Button
+        android:text="@string/button_este"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_este"
+        android:layout_below="@+id/button_noreste"
+        android:layout_toEndOf="@+id/button_noreste"
+        android:onClick="mostrar"/>
+
+</RelativeLayout>
